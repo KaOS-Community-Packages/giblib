@@ -7,7 +7,7 @@ url="http://freshmeat.net/projects/giblib/"
 license=('MIT')
 depends=('imlib2' 'libxext' 'freetype2')
 source=("https://github.com/timcowchip/DISTFILES/blob/master/$pkgname-$pkgver.tar.gz")
-md5sums=('c810ef5389baf24882a1caca2954385e')
+sha256sums=('176611c4d88d742ea4013991ad54c2f9d2feefbc97a28434c0f48922ebaa8bac')
 
 build() {
   cd "${srcdir}/${pkgname}-${pkgver}"
