@@ -1,5 +1,3 @@
-# Maintainer:
-
 pkgname=giblib
 pkgver=1.2.4
 pkgrel=6
@@ -8,7 +6,7 @@ arch=('x86_64')
 url="http://freshmeat.net/projects/giblib/"
 license=('MIT')
 depends=('imlib2' 'libxext' 'freetype2')
-source=("http://linuxbrit.co.uk/downloads/${pkgname}-${pkgver}.tar.gz")
+source=("https://github.com/timcowchip/DISTFILES/blob/master/$pkgname-$pkgver.tar.gz")
 md5sums=('c810ef5389baf24882a1caca2954385e')
 
 build() {
